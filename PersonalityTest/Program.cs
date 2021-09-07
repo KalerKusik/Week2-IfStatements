@@ -13,7 +13,7 @@ namespace PersonalityTest
             //kui kasutaja sisestab midagi muud, konsool kuvab "oled autist";
 
             Console.WriteLine("Mis on su lemmikvärv?");
-            string UserColor = Console.ReadLine();
+            string UserColor = Console.ReadLine().ToLower();
 
             if (UserColor == "punane")
             {
